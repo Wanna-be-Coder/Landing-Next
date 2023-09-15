@@ -40,7 +40,7 @@ export default function Home() {
           ))}
         </div>
       </div>
-      <div className='flex flex-wrap w-full p-4'>
+      <div className='flex flex-wrap w-full p-4 justify-center'>
         {[...Array(18)].map((i) => (
           <ItemCard
             key={i}
